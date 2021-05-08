@@ -171,9 +171,14 @@ svg.spiral rect {
   stroke: var(--highlight-color);
 }
 
+svg.spiral rect {
+  fill: var(--highlight-color);
+  fill-opacity: 0;
+}
+
 svg.spiral rect:hover {
   fill: var(--highlight-color);
-  fill-opacity: 0.5;
+  fill-opacity: 0.2;
 }
 
 /* @media (prefers-color-scheme: dark) {

@@ -79,6 +79,6 @@ spiralTl
   .to("svg.spiral rect", {
     rotation: 90,
     transformOrigin: "50% 50%",
-    stagger: -0.3,
-    duration: 1.5,
+    stagger: -0.4,
+    duration: 2.5,
   });
