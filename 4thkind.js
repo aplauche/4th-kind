@@ -1,6 +1,7 @@
 // handle changes on click
 const darkModeSwitch = document.querySelector(".dark-mode-toggle span");
 const bodyTag = document.querySelector("body");
+const sectionTag = document.querySelector("section");
 
 darkModeSwitch.addEventListener("click", function () {
   const darkTl = gsap.timeline();
